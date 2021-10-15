@@ -1,4 +1,4 @@
-FROM node:14.16-alpine
+FROM node:14.18.0-alpine
 
 # Build information
 ARG GIT_OWNER
