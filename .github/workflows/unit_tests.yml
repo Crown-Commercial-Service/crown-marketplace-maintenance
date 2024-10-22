@@ -1,0 +1,26 @@
+name: Tests
+
+on:
+  workflow_call:
+
+jobs:
+  unit-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.1.6
+
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      
+      - name: Lint
+        run: deno lint *.ts
+      
+      - name: Fromat check
+        run: deno fmt --check *.ts
+      
+      - name: Test
+        run: deno test --allow-read
