@@ -12,7 +12,7 @@
     "jsr:@std/net@^1.0.4": "1.0.4",
     "jsr:@std/path@^1.0.6": "1.0.6",
     "jsr:@std/streams@^1.0.7": "1.0.7",
-    "npm:ccs-frontend@^1.4.1": "1.4.1_govuk-frontend@5.11.1_jquery@3.7.1",
+    "npm:ccs-frontend@^2.3.0": "2.3.0_govuk-frontend@5.13.0_jquery@3.7.1",
     "npm:cheerio@1": "1.0.0"
   },
   "jsr": {
@@ -63,8 +63,8 @@
     "boolbase@1.0.0": {
       "integrity": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww=="
     },
-    "ccs-frontend@1.4.1_govuk-frontend@5.11.1_jquery@3.7.1": {
-      "integrity": "sha512-dLg0GgJicg+OsGzCofjckYhht8zhD+A/qS6hkJgGg5amIQ2m4WDU+sB4p7CkOX/mooqil8MDdIdcRwtXoydzRw==",
+    "ccs-frontend@2.3.0_govuk-frontend@5.13.0_jquery@3.7.1": {
+      "integrity": "sha512-eMrcqFDaH+bkEw1jZ7R3NsEGY+W1ClF6AzkKH09e5DM23Pq9WjT/M57fkvCtQkQynJTYZGNIyFT66gJmBdA+rA==",
       "dependencies": [
         "govuk-frontend",
         "jquery"
@@ -145,8 +145,8 @@
     "entities@4.5.0": {
       "integrity": "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw=="
     },
-    "govuk-frontend@5.11.1": {
-      "integrity": "sha512-hJJFpaer4MZLvz/2F9RZ7xZ6FqlzpxL9aw6YWOGK3F1tn419xj2WcVXwOC8Bcj/dc/LanknbWJDGkb+IdkuhTQ=="
+    "govuk-frontend@5.13.0": {
+      "integrity": "sha512-6N3pHelWN7wftdM6e4YEzZAfattapa1gnd+Al6d5PUbfTr9D+T2dnphpNpjX75CTEhihlQqlL0RDQ3WIfZ3PSg=="
     },
     "htmlparser2@9.1.0": {
       "integrity": "sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==",
@@ -201,7 +201,8 @@
       "integrity": "sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==",
       "dependencies": [
         "iconv-lite"
-      ]
+      ],
+      "deprecated": true
     },
     "whatwg-mimetype@4.0.0": {
       "integrity": "sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg=="
@@ -211,7 +212,7 @@
     "dependencies": [
       "jsr:@std/assert@1",
       "jsr:@std/http@1",
-      "npm:ccs-frontend@^1.4.1",
+      "npm:ccs-frontend@^2.3.0",
       "npm:cheerio@1"
     ]
   }
