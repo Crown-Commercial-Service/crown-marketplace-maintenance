@@ -68,11 +68,11 @@ Deno.test("Can find fonts", async () => {
 
 Deno.test("Can find images", async () => {
   const images = [
-    "ccs-icon-180.png",
-    "ccs-icon-192.png",
-    "ccs-icon-512.png",
-    "ccs-icon-mask.svg",
-    "ccs-opengraph-image.png",
+    "gca-icon-180.png",
+    "gca-icon-192.png",
+    "gca-icon-512.png",
+    "gca-icon-mask.svg",
+    "gca-opengraph-image.png",
     "favicon.ico",
     "favicon.svg",
   ];
@@ -117,6 +117,6 @@ Deno.test("GET /", async () => {
   );
   assertEquals(
     $("p.govuk-body-l:nth-child(3)").text().trim(),
-    "In the meantime please contact support at info@crowncommercial.gov.uk if you need to speak to someone, or alternatively you can view live service updates at https://status.crowncommercial.gov.uk",
+    "In the meantime please contact support at info@gca.gov.uk if you need to speak to someone, or alternatively you can view live service updates at https://status.gca.gov.uk",
   );
 });
